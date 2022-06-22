@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signin_layout"
+    tools:context=".SoccerSignInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_label"
+        android:text="@string/soccer_choose_username"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_input"
+        android:layout_below="@id/username_label"
+        android:inputType="text"
+        android:layout_centerHorizontal="true">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_button"
+        android:layout_centerHorizontal="true"
+        android:text="Create User"
+        android:layout_below="@id/username_input">
+    </Button>
+
+</RelativeLayout>

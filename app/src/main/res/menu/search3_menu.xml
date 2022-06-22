@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_item"
+        android:title="@string/AT_Search"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="always"
+        android:orderInCategory="300"/>
+
+    <item android:id="@+id/help_item"
+        android:title="@string/AT_Help"
+        android:icon="@drawable/help_icon"
+        app:showAsAction="always"
+        android:orderInCategory="400"/>
+
+</menu>

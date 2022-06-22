@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO:
+            -Change these buttons to image buttons
+            -Add title, author, version number for each section
+            -Change hard-coded strings to resource file strings
+            -Set up project as bi-lingual (french?)
+            -Test merging and ensure we are ready to integrate all the code when the time comes
+    -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trivia_button"
+        android:text="Trivia">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songster_button"
+        android:layout_below="@id/trivia_button"
+        android:text="Songster">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartrader_button"
+        android:layout_below="@id/songster_button"
+        android:text="Car Trader">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/soccer_button"
+        android:layout_below="@id/cartrader_button"
+        android:text="Soccer">
+    </Button>
+
+
+</RelativeLayout>

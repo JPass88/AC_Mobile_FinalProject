@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="search">Search</string>
+    <string name="songsterr" translatable="false">Songsterr</string>
+    <string name="songsterr_welcome">Welcome to the Songsterr API</string>
+    <string name="songsterr_searchArtist">Search for an Artist or Band</string>
+    <string name="songsterr_emptySearch">Please enter an artist or band name</string>
+    <string name="songsterr_favourites">Favourites</string>
+    <string name="songID">Song ID:</string>
+    <string name="artistID">Artist ID:</string>
+    <string name="songsterr_addToFavourites">Add to Favourites</string>
+    <string name="songsterr_addedToFavourites">Successfully Added to Favourites</string>
+    <string name="songsterr_removeFromFavourites">Remove from Favourites</string>
+    <string name="songsterr_removedFromFavourites">Successfully Removed from Favourites</string>
+    <string name="songsterr_goToTabPage">Go To Tabs</string>
+    <string name="songsterr_goToArtistPage">Go to Artist</string>
+    <string name="help">Help</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="author_gabriel">Author: Gabriel Matte</string>
+    <string name="songsterr_current_version">Version: 3.2</string>
+    <string name="songsterr_help_text">With this activity, you can search for your favourite artists or bands, build a library of favourites, and check out some tabs to learn how to play them. Type an artist in the search bar for a list of songs available. Then, click on any song in the list to add it to your favourites or to view the tabs. You can also see a full list of the artist\'s tabs available. From the main screen, select the \'Favourites\' button to view your library of songs.</string>
+    <string name="soccer_favorite_button">Favorite</string>
+    <string name="soccer_remove_button">Remove</string>
+    <string name="soccer_read_button">Read</string>
+    <string name="soccer_show_favs_button">Show Favorites</string>
+    <string name="soccer_show_articles_button">Back To Articles</string>
+    <string name="soccer_choose_username">Choose a Username</string>
+    <string name="soccer_create_username">Create Username</string>
+    <string name="author_andrew">Author: Andrew OHara</string>
+    <string name="soccer_current_version">Version: 4.0</string>
+
+    <!-- Splash -->
+    <string name="AT_About">About</string>
+    <string name="AT_LetsGo">Let\'s Go!</string>
+    <string name="AT_AboutApp">About this app</string>
+    <string name="AT_Main_Dialog">This app uses auto-trader\'s publicly accessible API to streamline private and dealership automotive sales by make and model.</string>
+    <string name="AT_Author">Author</string>
+    <string name="AT_Version">Version</string>
+    <string name="AT_Return">Return</string>
+    <string name="AT_Main_Toast">Hit the button let\'s go to search for a vehicle</string>
+    <!-- Search -->
+    <string name="AT_SearchModels">Search Models</string>
+    <string name="AT_Favorited">Favorited</string>
+    <string name="AT_Help">Help</string>
+    <string name="AT_Search_Toast">Toast</string>
+    <string name="AT_Search_Help">Enter a make in the search bar, press the search models button, click a model for more options, OR Click \'Favorited\' at the bottom to view saved searches</string>
+    <string name="AT_Search">Search</string>
+    <!-- Favorited -->
+    <string name="AT_Favorited_Help">Click a car for more options. Long-click a car in the list to remove from \'Favorited\' OR Click Search at the bottom to perform a search.</string>
+    <string name="AT_SelectedVehicle">Selected vehicle</string>
+    <string name="AT_AddedFavorite">Added to Favorites</string>
+    <string name="AT_AddFavorites">Add to Favorites</string>
+    <string name="AT_SearchOnline">Search online for</string>
+    <string name="AT_CheckAT">Shop AutoTrader for this vehicle</string>
+    <string name="AT_CheckGoogle">Search Google for this vehicle</string>
+    <string name="AT_Instructions">Instructions</string>
+    <!-- Details -->
+    <string name="AT_Details_Help">Hit the top left icon for more options. Add the selected vehicle to \'Favorites\' Launch a browser that queries AutoTrader for this vehicle. Launch a google search for this vehicle OR Click Search at the bottom to perform another model search. Click \'Favorited\' to visit your Favorites.</string>
+    <string name="AT_Delete">Delete \'</string>
+    <string name="AT_FromFavorites">\' from your favorites</string>
+    <string name="AT_Yes">Yes</string>
+    <string name="AT_No">No</string>
+
+    <!-- Trivia -->
+
+    <string name="welcome_text">WELCOME TO \nTRIVIAPO!</string>
+    <string name="question_number">Question Amount</string>
+    <string name="question_type">Question Type</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="start">START</string>
+    <string name="exit">EXIT</string>
+    <string name="howToPlay">How to Play?</string>
+    <string name="helpDescription">This is a simple trivia game app. Choose the difficulty, type and number of questions
+        from the below menu. During the quiz, you only have one chance to answer each question, and you cannot
+        re-answer a question. After all the questions are answered, you will be directed to
+        the score screen. Bonne chance! </string>
+    <string name="diffChangeText">Difficulty changed to </string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="typeMultiple">Multiple Choice</string>
+    <string name="typeBoolean">True/False</string>
+    <string name="submit">SUBMIT</string>
+    <string name="trueText">TRUE</string>
+    <string name="falseText">FALSE</string>
+    <string name="closeAppText">Are you sure you wanna close the app?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="validationError">Enter a valid question number!(1-10)</string>
+    <string name="cannotSubmit">All the questions should be answered first!</string>
+    <string name="gameOver">GAME OVER!</string>
+    <string name="score">SCORE: </string>
+    <string name="correct">Correct: </string>
+    <string name="wrong">Wrong: </string>
+    <string name="highScore">HIGH SCORE</string>
+    <string name="difficultyPlayed">Difficulty played: </string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete">DELETE</string>
+    <string name="mainMenu">MAIN MENU</string>
+
+    <!-- Main Page -->
+    <string name="project_title">CST2235 Final Project</string>
+    <string name="authors">Authors:</string>
+    <string name="main_help_welcome">Welcome to the CST2235 Final Project App</string>
+    <string name="main_help_general">Select one of the following APIs, each providing a unique service:</string>
+    <string name="main_help_car">The Auto API allows you to search for any make and model of vehicle, find information about it, and even see where it is available to buy through AutoTrader.ca.</string>
+    <string name="main_help_songsterr">The Songsterr API allows you to search for your favourite songs and artists on Songsterr, and build your very own library of favourites.</string>
+    <string name="main_help_soccer">The SportingNews (soccer) API allows you to search for the most pressing news in the world of soccer and to save your favourite articles.</string>
+    <string name="main_help_trivia">The Trivia API allows you to build your own custom set of trivia questions and save your favourites.</string>
+
+
+
+</resources>

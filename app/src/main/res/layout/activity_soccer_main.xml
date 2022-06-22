@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/soccer_layout"
+    tools:context=".SoccerMainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+    </androidx.appcompat.widget.Toolbar>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:rating="0">
+    </RatingBar>
+
+    <ListView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/soccer_listview"
+        android:layout_below="@id/ratingBar">
+
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/soccer_frame"
+        android:layout_toEndOf="@id/soccer_listview"
+        android:layout_below="@+id/ratingBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/article_img"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/article_img"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:id="@+id/article_date">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_below="@id/article_date"
+                android:id="@+id/article_url">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_below="@id/article_url"
+                android:id="@+id/article_desc">
+            </TextView>
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_desc"
+                android:id="@+id/download_progress"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                style="?android:attr/progressBarStyleHorizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/save_button"
+                android:text="@string/soccer_favorite_button"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/download_progress"
+                android:visibility="invisible">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/read_button"
+                android:text="@string/soccer_read_button"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/save_button"
+                android:visibility="invisible">
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/load_favs_button"
+                android:text="@string/soccer_show_favs_button"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/read_button"
+                android:visibility="visible">
+            </Button>
+
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

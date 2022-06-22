@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/songsterr_help"
+        android:title="@string/help"
+        android:icon="@drawable/icons8info96"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/songsterr_toolbar_favourites"
+        android:title="@string/songsterr_favourites"
+        android:icon="@drawable/icons8star96"
+        android:orderInCategory="10"
+        app:showAsAction="always" />
+
+</menu>

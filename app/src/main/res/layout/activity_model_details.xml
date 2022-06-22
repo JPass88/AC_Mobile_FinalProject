@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+        <!-- THIS IS WHAT IS VISIBLE ON SCREEN:-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/detailCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="400dp"
+                android:maxHeight="100dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/at_logo"    />
+
+            <ImageView
+                android:id="@+id/splashMicro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_alignParentRight="true"
+                android:maxWidth="200px"
+                android:maxHeight="70px"
+                android:layout_marginRight="80dp"
+                android:layout_below="@+id/detailCar"
+                android:src="@drawable/at_micro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="40dp"
+                android:text="@string/AT_SelectedVehicle"
+                android:textStyle="italic"
+                android:layout_below="@+id/splashMicro"
+                android:id="@+id/textviewDetailText"/>
+
+            <TextView
+                android:id="@+id/textviewDetailCar"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textviewDetailText"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/detailEscape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_alignParentLeft="true"
+                android:maxWidth="400px"
+                android:maxHeight="300px"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_above="@+id/bnv"
+                android:src="@drawable/select_icon"/>
+
+            <ImageView
+                android:id="@+id/detailPorsche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_alignParentRight="true"
+                android:maxWidth="400px"
+                android:maxHeight="300px"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_above="@+id/bnv"
+                android:src="@drawable/unnamed"/>
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bnv"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:menu="@menu/search2_menu"/>
+        </RelativeLayout>
+
+        <!-- THIS IS WHAT IS WHAT POPS OUT FROM THE SIDE:-->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:menu="@menu/detail_menu"
+            android:id="@+id/nav_view"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>

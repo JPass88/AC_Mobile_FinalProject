@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="welcome_text">TRIVIAPOYA \nHOŞGELDİN!</string>
+    <string name="question_number">Soru Sayısı</string>
+    <string name="question_type">Soru Tipi</string>
+    <string name="difficulty">Zorluk</string>
+    <string name="start">BAŞLA</string>
+    <string name="exit">ÇIKIŞ</string>
+    <string name="help">Yardım</string>
+    <string name="howToPlay">Nasıl oynanır?</string>
+    <string name="helpDescription">Gayet kolay bir genel kültür oyun uygulaması. Soru zorluğu,
+    tipi, ve sayısını aşağıdaki menüden seçin. Quiz sırasında her bir soruyu yanıtlamanız için
+    tek bir şansınız var. Tüm sorular yanıtlandıktan sonra aşağıdaki bitir butonu ile oyunu
+    sonlandırabilirsiniz. Bol şans! </string>
+    <string name="close">KAPAT</string>
+    <string name="diffChangeText">Zorluk değiştirildi </string>
+    <string name="easy">Kolay</string>
+    <string name="medium">Orta</string>
+    <string name="hard">Zor</string>
+    <string name="typeMultiple">Çoktan seçmeli</string>
+    <string name="typeBoolean">Doğru/Yanlış</string>
+    <string name="submit">BİTİR</string>
+    <string name="trueText">DOĞRU</string>
+    <string name="falseText">YANLIŞ</string>
+    <string name="closeAppText">Kapatmak istedigine emin misin?</string>
+    <string name="no">HAYIR</string>
+    <string name="yes">EVET</string>
+    <string name="validationError">Geçersiz soru sayısı! (1-10)</string>
+    <string name="cannotSubmit">Önce tüm sorular cevaplanmalı!</string>
+    <string name="gameOver">OYUN BİTTİ!</string>
+    <string name="score">SKOR: </string>
+    <string name="correct">Doğru: </string>
+    <string name="wrong">Yanlıs: </string>
+    <string name="highScore">YÜKSEK SKOR</string>
+    <string name="difficultyPlayed">Oynanan zorluk: </string>
+    <string name="cancel">İPTAL</string>
+    <string name="delete">SİL</string>
+    <string name="mainMenu">ANA MENÜ</string>
+
+</resources>

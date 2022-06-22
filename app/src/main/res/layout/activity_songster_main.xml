@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SongsterrMainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/songsterr_toolbar_layout" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/songsterr_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/songsterr_banner"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:src="@drawable/songsterr_logo_full_cropped" />
+
+            <!--Need to translate the string used here -->
+            <EditText
+                android:id="@+id/songsterr_searchBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/songsterr_searchArtist"
+                android:contentDescription="Artist search"
+                android:inputType="text"
+                android:layout_below="@+id/songsterr_banner"
+                android:layout_marginHorizontal="15dp"
+                android:textAlignment="center"
+                android:text="" />
+
+            <Button
+                android:id="@+id/songsterr_searchButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:backgroundTint="@color/songsterr_green"
+                android:layout_below="@id/songsterr_searchBar"
+                android:layout_marginHorizontal="15dp" />
+
+            <Button
+                android:id="@+id/songsterr_favourites"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/songsterr_blue"
+                android:textSize="17dp"
+                android:text="@string/songsterr_favourites" />
+
+
+        </RelativeLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/songsterr_header_layout"
+            app:menu="@menu/songsterr_navigation_menu"
+            android:id="@+id/songsterr_nav_view" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

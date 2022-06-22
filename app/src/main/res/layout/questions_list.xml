@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+
+        android:text="1"
+        android:textSize="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#F8D643">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="What is the most fun course of the program?"
+            android:textColor="#393E5E"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/firstChoice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/questionText"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Android"
+            android:textColor="#F8D643" />
+
+        <Button
+            android:id="@+id/secondChoice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstChoice"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Mobile"
+            android:textColor="#F8D643" />
+
+        <Button
+            android:id="@+id/thirdChoice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondChoice"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="GUI"
+            android:textColor="#F8D643" />
+
+        <Button
+            android:id="@+id/fourthChoice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thirdChoice"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Programming"
+            android:textColor="#F8D643" />
+
+        <ImageView
+            android:id="@+id/stateImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/firstChoice"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/secondChoice"
+            android:src="@drawable/unanswered" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+

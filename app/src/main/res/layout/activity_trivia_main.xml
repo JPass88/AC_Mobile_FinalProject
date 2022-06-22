@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriviaMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8D643"
+        tools:layout_editor_absoluteX="-104dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/myToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="#00393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/welcome_text"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcomeText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#00B89999"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:text="@string/question_number"
+            android:textColor="#393E5E"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/numSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textFirst"
+            android:layout_centerHorizontal="true"
+            android:inputType="number"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="@string/question_type"
+            android:textColor="#393E5E"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/typeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textSecond"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/typeSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="@string/difficulty"
+            android:textColor="#393E5E"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/diffSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textThird"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diffSpinner"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/start"
+            android:textColor="#F8D643" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startButton"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/exit"
+            android:textColor="#F8D643" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

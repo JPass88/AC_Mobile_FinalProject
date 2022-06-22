@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongsterrDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="18dp" >
+
+        <TextView
+            android:id="@+id/songsterr_details_songTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textSize="30dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/songsterr_details_artistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/songsterr_details_songTitle"
+            android:textSize="22dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/songsterr_details_songID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/songsterr_details_artistName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/songsterr_details_artistID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/songsterr_details_songID"
+            android:text="" />
+
+        <Button
+            android:id="@+id/songsterr_details_songLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/songsterr_details_artistLink"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/songsterr_goToTabPage" />
+
+        <Button
+            android:id="@+id/songsterr_details_artistLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/songsterr_details_favourites"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/songsterr_goToArtistPage" />
+
+        <Button
+            android:id="@+id/songsterr_details_favourites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="30dp"
+            android:text="" />
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

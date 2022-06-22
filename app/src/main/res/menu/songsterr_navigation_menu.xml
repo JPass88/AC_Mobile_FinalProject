@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--All Icons obtained from Icons8.com-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/go_to_autotrader"
+        android:title="Auto Trader"
+        android:icon="@drawable/icons8car52"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/go_to_soccer"
+        android:title="Soccer News"
+        android:icon="@drawable/icons8soccer96"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/go_to_songsterr"
+        android:title="Songsterr"
+        android:icon="@drawable/songsterr_logo_sm_black"
+        android:orderInCategory="3"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/go_to_trivia"
+        android:title="Trivia"
+        android:icon="@drawable/icons8question52"
+        android:orderInCategory="4"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/go_home"
+        android:title="Back to Home"
+        android:icon="@drawable/icons8home96"
+        android:orderInCategory="10"
+        app:showAsAction="always" />
+
+</menu>

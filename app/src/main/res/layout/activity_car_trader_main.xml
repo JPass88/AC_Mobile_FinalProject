@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CarTraderMainActivity">
+
+    <ImageView
+
+        android:id="@+id/splashWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="100dp"
+        android:src="@drawable/at_welcome"
+        />
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp"
+        android:gravity="center"
+        android:layout_below="@+id/splashWelcome"
+        android:src="@drawable/at_logo"
+        />
+
+    <ImageView
+        android:id="@+id/splashMicro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:maxWidth="200px"
+        android:maxHeight="80px"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/splashLogo"
+        android:src="@drawable/at_micro"
+        />
+
+    <ImageView
+        android:id="@+id/splashCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="60dp"
+        android:maxWidth="350dp"
+        android:maxHeight="350dp"
+        android:gravity="center"
+        android:layout_below="@+id/splashLogo"
+        android:src="@drawable/at_gti"
+        />
+
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashCar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/AT_About"/>
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashCar"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/buttonAbout"
+        android:text="@string/AT_LetsGo"/>
+
+</RelativeLayout>

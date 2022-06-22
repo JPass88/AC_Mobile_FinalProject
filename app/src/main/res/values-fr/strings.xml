@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ProjetFinale</string>
+    <string name="songsterr_emptySearch">Entrez le nom d\'un artiste ou groupe</string>
+    <string name="songsterr_favourites">Favoris</string>
+    <string name="songID">Identifiant de Chanson</string>
+    <string name="artistID">Identifiant d\'Artiste</string>
+    <string name="songsterr_addToFavourites">Ajouter aux Favoris</string>
+    <string name="songsterr_addedToFavourites">Ajouté aux Favoris avec Succès</string>
+    <string name="songsterr_removeFromFavourites">Supprimer des Favoris</string>
+    <string name="songsterr_removedFromFavourites">Supprimé des Favoris avec Succès</string>
+    <string name="songsterr_goToTabPage">Aller au Tablature</string>
+    <string name="songsterr_goToArtistPage">Aller à l\'Artiste</string>
+    <string name="search">Chercher</string>
+    <string name="songsterr_searchArtist">Chercher pour un Artiste ou Groupe</string>
+    <string name="help">Aider</string>
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+    <string name="author_gabriel">Author: Gabriel Matte</string>
+    <string name="songsterr_current_version">Version: 3.2</string>
+    <string name="songsterr_help_text">Avec cet activité, vous pouvez checher pour vos artistes ou groupes favoris, construire une bibliotèque de favoris, et voir les Tabs pour apprendre à jouer. Entrez le nom d\'un artiste dans la boite \'Chercher\' pour une liste de chansons disponibles. Ensuite, appuyez sur un chanson pour l\'ajouter à vos Favoris. Vous pouvez aussi voir un liste complet des chansons par l\'artiste disponibles. De l\'écran primaire, appuyez le boutton \'Favoris\' pour voir votre bibliotèque de chansons.</string>
+    <string name="songsterr_welcome">Bienvenue à l\'API Songsterr</string>
+    <string name="soccer_favorite_button">Préférée</string>
+    <string name="soccer_remove_button">Supprimer</string>
+    <string name="soccer_read_button">Lis</string>
+    <string name="soccer_show_favs_button">Afficher Favorites</string>
+    <string name="soccer_show_articles_button">Retour aux Articles</string>
+    <string name="soccer_choose_username">Choisissez un Nom</string>
+    <string name="soccer_create_username">Créer un nom</string>
+    <string name="author_andrew">Author: Andrew OHara</string>
+    <string name="soccer_current_version">Version: 4.0</string>
+
+
+    <!-- Splash -->
+    <string name="AT_About">à propos de</string>
+    <string name="AT_LetsGo">allons-y!</string>
+    <string name="AT_AboutApp">à propos de cette application</string>
+    <string name="AT_Main_Dialog">Cette application utilise l\'API accessible au public d\'auto-trader pour rationaliser les ventes automobiles privées et concessionnaires par marque et modèle.</string>
+    <string name="AT_Author">Auteur</string>
+    <string name="AT_Version">Version</string>
+    <string name="AT_Return">Revenir</string>
+    <string name="AT_Main_Toast">Appuyez sur le bouton allons chercher un véhicule</string>
+
+    <!-- Search -->
+    <string name="AT_SearchModels">Modèles de recherche</string>
+    <string name="AT_Favorited">Favoris</string>
+    <string name="AT_Help">Aide</string>
+    <string name="AT_Search_Toast">Un exemple de recherche sera effectué car aucune marque n\'a été fournie</string>
+    <string name="AT_Search_Help">Entrez une marque dans la barre de recherche, appuyez sur le bouton de recherche de modèles, cliquez sur un modèle pour plus d\'options, OU cliquez sur \'Favoris\' en bas pour afficher les recherches enregistrées</string>
+    <string name="AT_Search">Rechercer</string>
+    <string name="AT_Instructions">Instructions</string>
+    <string name="AT_Favorited_Help">Cliquez sur une voiture pour plus d\'options. Cliquez longuement sur une voiture dans la liste pour la supprimer des favoris OU cliquez sur Rechercher en bas pour effectuer une recherche.</string>
+    <string name="AT_SelectedVehicle">Véhicule Sélectionné</string>
+    <string name="AT_AddFavorites">Ajouter aux Favoris?</string>
+    <string name="AT_AddedFavorite">ajouté aux Favoris</string>
+    <string name="AT_CheckAT">Recherche AutoTrader pour ce véhicule</string>
+    <string name="AT_CheckGoogle">Recherche Google pour ce véhicule</string>
+    <string name="AT_SearchOnline">Recherche en ligne pour</string>
+
+    <!-- Details -->
+    <string name="AT_Details_Help">Appuyez sur l\'icône en haut à gauche pour plus d\'options. Ajouter le véhicule sélectionné aux \'Favoris\' Lancez un navigateur qui interroge AutoTrader pour ce véhicule. Lancez une recherche Google pour ce véhicule OU Cliquez sur Rechercher en bas pour effectuer une autre recherche de modèle. Cliquez sur "Favoris" pour visiter vos favoris.</string>
+    <string name="AT_Delete">Effacer \'</string>
+    <string name="AT_FromFavorites">\' de vos favoris?</string>
+    <string name="AT_Yes">Oui</string>
+    <string name="AT_No">Non</string>
+</resources>

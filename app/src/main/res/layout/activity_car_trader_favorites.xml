@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:src="@drawable/at_logo"/>
+
+    <ImageView
+        android:id="@+id/splashMicro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:maxWidth="100px"
+        android:maxHeight="40px"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/splashLogo"
+        android:src="@drawable/at_micro"/>
+
+    <TextView
+        android:id="@+id/textviewTEST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashMicro"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:text="@string/AT_Favorited"/>
+
+    <ListView
+        android:id="@+id/listviewModel"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/funTruck"
+        android:layout_below="@id/textviewTEST"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"/>
+
+    <ImageView
+        android:id="@+id/funTruck"
+        android:adjustViewBounds="true"
+        android:maxWidth="300dp"
+        android:maxHeight="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnv"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/t2"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnv"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/search3_menu"/>
+
+</RelativeLayout>

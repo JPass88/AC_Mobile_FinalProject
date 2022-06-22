@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriviaScoreActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8D643">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/gameOver"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="casual"
+            android:text="SCORE: 1111\nCorrect: 7\nWrong: 3"
+            android:textColor="#393E5E"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="400dp"
+            android:background="#ED5C5E"
+            android:backgroundTint="#00ED5C5E"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:hint="Your name"
+            android:inputType="text"
+            android:textColor="#393E5E"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="480dp"
+            android:backgroundTint="#393E5E"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="@string/submit"
+            android:textColor="#F8D643"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
